@@ -23,7 +23,7 @@ public class DataSeeder {
             if (userRepo.count() == 0) {
                 User admin = new User();
                 admin.setUsername("admin");
-                admin.setPasswordHash(passwordEncoder.encode("cms2026"));
+                admin.setPasswordHash(passwordEncoder.encode("CmsT3chub!2026#Secure"));
                 admin.setRole("ADMIN");
                 userRepo.save(admin);
                 System.out.println("✅ Admin user seeded (admin / cms2026)");
